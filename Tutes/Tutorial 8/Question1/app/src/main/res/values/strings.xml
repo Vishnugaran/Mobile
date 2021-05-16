@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string-array name="friendsNames">
+        <item>Suvetha</item>
+        <item>Tharahy</item>
+        <item>Lucksika</item>
+        <item>Meerushagini</item>
+        <item>Ramya</item>
+        <item>Jaanu</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Custom List View</string>
+    <string-array name="optionalModules">
+        <item>Mobile Application Development</item>
+        <item>Machine Learning</item>
+        <item>Client Server</item>
+        <item>iOS Programming</item>
+        <item>Java Programming</item>
+        <item>Python Programming</item>
+    </string-array>
+</resources>

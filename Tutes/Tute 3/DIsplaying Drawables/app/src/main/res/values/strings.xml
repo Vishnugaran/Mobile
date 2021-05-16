@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DIsplaying Drawables</string>
+
+    <string name="switch_image">Switch Image</string>
+    <string name="img1">img1</string>
+    <string name="img_switch">img switch</string>
+</resources>

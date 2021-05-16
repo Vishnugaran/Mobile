@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_header" type="id"> </item>
+    <item name="shopping_list_header" type="id"> </item>
+    <item name="item1" type="id"> </item>
+    <item name="item2" type="id"> </item>
+    <item name="item3" type="id"> </item>
+    <item name="item4" type="id"> </item>
+    <item name="item5" type="id"> </item>
+    <item name="item6" type="id"> </item>
+    <item name="item7" type="id"> </item>
+    <item name="item8" type="id"> </item>
+    <item name="item9" type="id"> </item>
+    <item name="item10" type="id"> </item>
+    <item name="button_main" type="id"> </item>
+</resources>

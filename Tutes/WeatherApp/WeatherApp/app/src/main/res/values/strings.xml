@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="textView_feels_like_text">Feels Like</string>
+    <string name="title_textView_text">Weather App</string>
+    <string name="textView_city_name_text">City Name</string>
+    <string name="textView_current_temperature_text">Current Temperature</string>
+    <string name="editTextText_city_name_value_hint">City Name</string>
+    <string name="editText_text_textView_text">Enter the name of the city</string>
+    <string name="textView_sunrise_text">Sunrise</string>
+    <string name="textView_sunset_text">Sunset</string>
+    <string name="textView_description_text">Description</string>
+    <string name="button_find_text">Find</string>
+    <string name="button_history_text">History</string>
+    <string name="textView_history_text">HISTORY</string>
+</resources>

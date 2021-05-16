@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Coursework1</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+
+    <string name="identify">Identify</string>
+    <string name="next">Next</string>
+
+    <string name="correct">
+        <font fgcolor="green" >CORRECT!</font>
+    </string>
+
+    <string name="wrong">
+        <font fgcolor="red">WRONG!</font>
+    </string>
+    <string name="bens"><font fgcolor="yellow" bgcolor ="black">Benz</font></string>
+    <string name="bmw"><font fgcolor="yellow" bgcolor ="black">BMW</font></string>
+    <string name="fre"><font fgcolor="yellow" bgcolor ="black">Ferrari</font></string>
+    <string name="jag"><font fgcolor="yellow" bgcolor ="black">Jaguar</font></string>
+    <string name="volk"><font fgcolor="yellow" bgcolor ="black">Volk</font></string>
+    <string name="ford"><font fgcolor="yellow" bgcolor ="black">Ford</font></string>
+    <string name="submit">Submit</string>
+    <string name="welcome">WELCOME</string>
+    <string name="s">Timer</string>
+    <string name="advanced_level">ADVANCED LEVEL</string>
+
+    <string-array name="carnames">//spinner drop list
+        <item>Benz</item>
+        <item>BMW</item>
+        <item>Ferrari</item>
+        <item>Jaguar</item>
+        <item>Volk</item>
+        <item>Ford</item>
+    </string-array>
+    >
+</resources>

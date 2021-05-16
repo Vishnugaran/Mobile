@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 12 10:11:59 IST 2021
+0.baseType=DIRECTORY
+0.base=E\:\\Mobile\\Tutorial4\\ImplicitIntentsReceiver\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

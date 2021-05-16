@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="items_header">List of items</string>
+    <string name="cheese_button">&#129472;</string>
+    <string name="watermelon_button">&#127817;</string>
+    <string name="avacado_button">&#129361;</string>
+    <string name="doughnut_button">&#127849;</string>
+    <string name="cupcake_button">&#129473;</string>
+    <string name="ice_button">&#127848;</string>
+    <string name="juice_button">&#127865;</string>
+    <string name="popcorn_button">&#127871;</string>
+    <string name="cookie_button">&#127850;</string>
+    <string name="chocolate_button">&#127851;</string>
+    <string name="cocktail_button">&#127864;</string>
+    <string name="shortcake_button">&#127856;</string>
+    <string name="clear_button">Reset list</string>
+    <string name="shopping_list_header">Shopping List</string>
+    <string name="button_main">button_main</string>
+    <string name="main">main</string>
+    <string name="items">Items</string>
+    <string name="reset">Reset</string>
+    <string name="enter_store_name">Enter store name</string>
+    <string name="search_for_store">Search for store</string>
+    <string name="search">search</string>
+</resources>

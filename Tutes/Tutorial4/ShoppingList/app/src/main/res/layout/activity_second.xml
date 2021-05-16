@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/text_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/items_header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/watermelon_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/watermelon_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_header" />
+
+    <Button
+        android:id="@+id/juice_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/juice_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/watermelon_button" />
+
+    <Button
+        android:id="@+id/chocolate_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/chocolate_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/juice_button" />
+
+    <Button
+        android:id="@+id/ice_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:shadowColor="#00000000"
+        android:text="@string/cupcake_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chocolate_button" />
+
+    <Button
+        android:id="@+id/doughnut_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/doughnut_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popcorn_button" />
+
+    <Button
+        android:id="@+id/popcorn_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/popcorn_button"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ice_button" />
+
+    <Button
+        android:id="@+id/avacado_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/avacado_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toEndOf="@+id/watermelon_button"
+        app:layout_constraintTop_toBottomOf="@+id/text_header" />
+
+    <Button
+        android:id="@+id/cookie_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:shadowColor="#00000000"
+        android:text="@string/cookie_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toEndOf="@+id/doughnut_button"
+        app:layout_constraintTop_toBottomOf="@+id/cheese_button" />
+
+    <Button
+        android:id="@+id/cheese_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:shadowColor="#00000000"
+        android:text="@string/cheese_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toEndOf="@+id/popcorn_button"
+        app:layout_constraintTop_toBottomOf="@+id/shortcake_button" />
+
+    <Button
+        android:id="@+id/shortcake_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:shadowColor="#00000000"
+        android:text="@string/shortcake_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toEndOf="@+id/ice_button"
+        app:layout_constraintTop_toBottomOf="@+id/green_salad_button" />
+
+    <Button
+        android:id="@+id/green_salad_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:text="@string/ice_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toEndOf="@+id/chocolate_button"
+        app:layout_constraintTop_toBottomOf="@+id/cocktail_button" />
+
+    <Button
+        android:id="@+id/cocktail_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:onClick="returnReply"
+        android:outlineProvider="paddedBounds"
+        android:shadowColor="#00000000"
+        android:text="@string/cocktail_button"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toEndOf="@+id/juice_button"
+        app:layout_constraintTop_toBottomOf="@+id/avacado_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
